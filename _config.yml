@@ -1,4 +1,15 @@
+url: https://dinanoviana.github.io/
 theme: jekyll-theme-minimal
+
+author-avatar: cartoonverse.jpg
 title: Hi, I'm Dina.
 description: A UI/UX Designer mainly focused on mobile and web platform.
+
+author-name: Contact
+email: dinanov.noviana@gmail.com
+github-username: dinanoviana
+instagram-username: dinanoviana99
+linkedin-username: dinanoviana
+medium-username: dinanoviana
+
 markdown: kramdown
