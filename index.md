@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-# Blog
+# About
