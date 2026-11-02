@@ -30,10 +30,16 @@
         <!-- GET IN TOUCH CLEAN LIST -->
         <ul style="list-style: none; padding: 0; margin: 0 0 20px 0;">
           {% if site.linkedin_url %}
-            <li style="margin-bottom: 6px;"><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn</a></li>
+            <li style="margin-bottom: 6px;"><a href="{{ site.linkedin_url }}" target="_blank" style="text-decoration: none;">LinkedIn</a></li>
           {% endif %}
           {% if site.github_url %}
-            <li style="margin-bottom: 6px;"><a href="{{ site.github_url }}" target="_blank">GitHub</a></li>
+            <li style="margin-bottom: 6px;"><a href="{{ site.github_url }}" target="_blank" style="text-decoration: none;">GitHub</a></li>
+          {% endif %}
+          {% if site.behance_url %}
+            <li style="margin-bottom: 6px;"><a href="{{ site.behance_url }}" target="_blank" style="text-decoration: none;">Behance</a></li>
+          {% endif %}
+          {% if site.medium_url %}
+            <li style="margin-bottom: 6px;"><a href="{{ site.medium_url }}" target="_blank" style="text-decoration: none;">Medium</a></li>
           {% endif %}
         </ul>
         
