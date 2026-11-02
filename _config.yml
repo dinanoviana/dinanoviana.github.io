@@ -12,7 +12,3 @@ navigation:
     url: /projects/
 
 markdown: kramdown
-
-# Add your social links here so they appear in the sidebar
-linkedin_url: "https://linkedin.com/in/dinanoviana"
-github_url: "https://github.com/dinanoviana"
