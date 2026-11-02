@@ -7,9 +7,9 @@ navigation:
   - title: About
     url: /
   - title: Blog
-    url: blog
+    url: /blog/
   - title: Projects
-    url: projects
+    url: /projects/
 
 markdown: kramdown
 
