@@ -4,8 +4,6 @@ title: About
 ---
 # Dina Noviana
 
-### Systems Analyst & QA Specialist – Financial Accounting Systems & Production Support
-
 A Software Quality Assurance professional who driven to deliver secure and reliable systems, integrated with UI/UX to keep solutions user-focused.
 
 ## Experience
