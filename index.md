@@ -91,8 +91,3 @@ A Software Quality Assurance professional who driven to deliver secure and relia
 * Facilitated and supported members participating in IT and scientific competitions.
 * Gathered competition information across scientific writing and IT fields for social media publication.
 * Active participant in organizational events and workshops.
-
-## Get In Touch
-* **LinkedIn:** [linkedin.com/in/dinanoviana](https://linkedin.com/in/dinanoviana)
-* **GitHub:** [github.com/dinanoviana](https://github.com/dinanoviana)
-* **Behance:** [behance.net/dinanov](https://behance.net/dinanov)
