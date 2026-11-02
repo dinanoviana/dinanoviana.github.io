@@ -4,15 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
+# Projects
+
 ## SQA
 
 <ul style="list-style: none; padding: 0; margin: 20px 0 40px 0;">
   <li style="margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid #f3f4f6;">
-    <h3 style="margin: 0 0 4px 0; font-size: 18px; font-weight: 600; color: #7089c1;">
+    <h3 style="margin: 0 0 4px 0; font-size: 18px; font-weight: 600; color: #567dd0;">
       Core Banking Implementation
     </h3>
     <p style="margin: 0 0 6px 0; font-size: 13px; font-weight: 500; color: #4b5563;">PT Bank KB Indonesia Tbk &bull; Mar 2024 – Apr 2025</p>
-    <p style="margin: 0 0 8px 0; font-size: 13px; font-weight: 600; color: #4e77cf;">Quality Assurance Financial Accounting Stream Lead</p>
+    <p style="margin: 0 0 8px 0; font-size: 13px; font-weight: 600; color: #4e6aa5;">Quality Assurance Financial Accounting Stream Lead</p>
     <ul style="margin: 0 0 8px 0; padding-left: 20px; font-size: 14px; color: #4b5563;">
       <li style="margin-bottom: 4px;">Execute System Integration Testing (SIT) and User Acceptance Testing (UAT).</li>
       <li style="margin-bottom: 4px;">Collaborate with external IT vendor and client's Business team to resolve defects and problems.</li>
@@ -23,51 +25,15 @@ permalink: /projects/
 
 ## UI/UX Design
 
-Latest visual design and UI/UX projects fetched dynamically from my [Behance](https://behance.net/dinanov) profile:
-
-<div id="behance-projects-container">
-  <p style="color: #6b7280; font-style: italic;">Loading projects from Behance...</p>
+<div style="margin: 20px 0;">
+  <a href="https://www.behance.net/dinanov" target="_blank" style="display: inline-block; background: #2563eb; color: #ffffff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">Visit my Behance Profile &rarr;</a>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const behanceUsername = "dinanov";
-    const rssFeedUrl = `https://www.behance.net/feeds/user?username=${behanceUsername}`;
-    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssFeedUrl)}`;
-
-    fetch(apiUrl)
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById("behance-projects-container");
-        if (data.status === "ok" && data.items && data.items.length > 0) {
-          let html = '<ul style="list-style: none; padding: 0; margin: 20px 0;">';
-          
-          data.items.forEach(item => {
-            const pubDate = new Date(item.pubDate).toLocaleDateString("en-US", {
-              year: 'numeric',
-              month: 'short',
-              day: 'numeric'
-            });
-
-            html += `
-              <li style="margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #f3f4f6;">
-                <h3 style="margin: 0 0 6px 0; font-size: 18px; font-weight: 600;">
-                  <a href="${item.link}" target="_blank" style="text-decoration: none; color: #2563eb;">${item.title}</a>
-                </h3>
-                <span style="font-size: 12px; color: #9ca3af;">Published on Behance • ${pubDate}</span>
-              </li>
-            `;
-          });
-
-          html += '</ul>';
-          container.innerHTML = html;
-        } else {
-          container.innerHTML = '<p style="color: #6b7280;">No Behance projects found or user feed unavailable.</p>';
-        }
-      })
-      .catch(error => {
-        console.error("Error fetching Behance feed:", error);
-        document.getElementById("behance-projects-container").innerHTML = '<p style="color: #ef4444;">Unable to load Behance projects at this moment.</p>';
-      });
-  });
-</script>
+<ul style="list-style: none; padding: 0; margin: 20px 0;">
+  <li style="margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid #f3f4f6;">
+    <h3 style="margin: 0 0 4px 0; font-size: 16px; font-weight: 600;">
+      <a href="https://www.behance.net/dinanov" target="_blank" style="text-decoration: none; color: #2563eb;">UI/UX Case Studies & Visual Explorations</a>
+    </h3>
+    <p style="margin: 0; font-size: 13px; color: #4b5563;">Check out my complete collection of design systems, wireframes, and digital artwork on Behance.</p>
+  </li>
+</ul>
