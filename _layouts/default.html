@@ -24,19 +24,20 @@
           {% endfor %}
         </table>
 
-        <!-- GET IN TOUCH SIDEBAR SECTION -->
+        <!-- GET IN TOUCH HEADING -->
         <p style="margin: 25px 0 8px 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #6b7280;">Get in Touch</p>
         
-        <ul>
-          {% if site.linkedin_url %}
-            <li><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn</a></li>
-          {% endif %}
-          {% if site.github_url %}
-            <li><a href="{{ site.github_url }}" target="_blank">GitHub</a></li>
-          {% endif %}
-          {% if site.behance_url %}
-            <li><a href="{{ site.behance_url }}" target="_blank">Behance</a></li>
-          {% endif %}
+        <!-- GET IN TOUCH LINK LIST (Styled like header ul) -->
+        <ul style="list-style: none; height: 38px; padding: 0; background: #f9fafb; border-radius: 6px; border: 1px solid #e5e7eb; width: 260px; margin-bottom: 20px;">
+          <li style="width: 86px; float: left; border-right: 1px solid #e5e7eb; height: 38px;">
+            <a href="{{ site.linkedin_url }}" target="_blank" style="line-height: 1; font-size: 11px; color: #6b7280; display: block; text-align: center; padding-top: 10px; height: 28px; text-decoration: none;">LinkedIn</a>
+          </li>
+          <li style="width: 86px; float: left; border-right: 1px solid #e5e7eb; height: 38px;">
+            <a href="{{ site.github_url }}" target="_blank" style="line-height: 1; font-size: 11px; color: #6b7280; display: block; text-align: center; padding-top: 10px; height: 28px; text-decoration: none;">GitHub</a>
+          </li>
+          <li style="width: 87px; float: left; height: 38px;">
+            <a href="{{ site.behance_url }}" target="_blank" style="line-height: 1; font-size: 11px; color: #6b7280; display: block; text-align: center; padding-top: 10px; height: 28px; text-decoration: none;">Behance</a>
+          </li>
         </ul>
       </header>
       
