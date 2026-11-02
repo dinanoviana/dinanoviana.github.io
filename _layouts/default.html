@@ -24,15 +24,19 @@
           {% endfor %}
         </table>
 
-        <!-- GET IN TOUCH HEADING (Normal Case) -->
+        <!-- GET IN TOUCH HEADING -->
         <p style="margin: 25px 0 8px 0; font-size: 13px; font-weight: 600; color: #4b5563;">Get in Touch</p>
         
-        <!-- GET IN TOUCH TEXT LIST -->
+        <!-- GET IN TOUCH CLEAN LIST -->
         <ul style="list-style: none; padding: 0; margin: 0 0 20px 0;">
-          <li style="margin-bottom: 6px;"><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn</a></li>
-          <li style="margin-bottom: 6px;"><a href="{{ site.github_url }}" target="_blank">GitHub</a></li>
-          <li style="margin-bottom: 6px;"><a href="{{ site.behance_url }}" target="_blank">Behance</a></li>
+          {% if site.linkedin_url %}
+            <li style="margin-bottom: 6px;"><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn</a></li>
+          {% endif %}
+          {% if site.github_url %}
+            <li style="margin-bottom: 6px;"><a href="{{ site.github_url }}" target="_blank">GitHub</a></li>
+          {% endif %}
         </ul>
+        
       </header>
       
       <section>
